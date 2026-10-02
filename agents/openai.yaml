@@ -1,0 +1,6 @@
+interface:
+  display_name: "彩票官方数据与预算选号"
+  short_description: "按次同步官方数据，自动回溯、预算分配与选号"
+  default_prompt: "Use $lottery-quant to allocate my fixed lottery budget, explain the odds, and generate reproducible combinations without purchasing tickets."
+policy:
+  allow_implicit_invocation: true
